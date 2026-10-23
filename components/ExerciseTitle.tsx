@@ -1,5 +1,5 @@
-.exercise-title {
-  font-size: 16px;
-  font-weight: 700;
-  color: #d9d8dd;
+import "./exerciseTitle.css";
+
+export default function ExerciseTitle() {
+  return <h1 className="exercise-title">Exercícios</h1>;
 }
